@@ -1,0 +1,234 @@
+    1  sfdx
+    2  sfdx force --help
+    3  sfdx force:doc:
+    4  sfdx force:doc
+    5  sfdx force:doc:commands:list
+    6  ssh-keygen -t rsa -C "tomasz.jurek@gft.com" -b 4096
+    7  ls
+    8  cd sf-business-trip-pl/
+    9  ls
+   10  git status
+   11  ant
+   12  cd workspace/
+   13  cd ANT/
+   14  ant
+   15  ant -p
+   16  ant -p
+   17  ant retrievesb4
+   18  ant retrievesb4
+   19  ant retrievesb4
+   20  ant -p
+   21  cd sf
+   22  cd sf-business-trip-pl/
+   23  cd ../.atom/
+   24  ant -h
+   25  cd ../Bizn\ Trip\ model/
+   26  ls
+   27  ant retrieveUnpackaged
+   28  ant retrieveUnpackaged
+   29  ant retrieveUnpackaged
+   30  ls
+   31  ant retrieveUnpackaged
+   32  ant retrieveUnpackaged
+   33  ant retrieveUnpackaged
+   34  cd ../sf-business-trip-pl/
+   35  ant deploySkipTests
+   36  ant deploySkipTests
+   37  ant deploySkipTests
+   38  ant deploySkipTests
+   39  ant deploySkipTests
+   40  ls
+   41  ls
+   42  ant deploySkipTests
+   43  cd src/
+   44  cd src/
+   45  ant deploySkipTests
+   46  cd ..
+   47  ls
+   48  ant deploySkipTests
+   49  cd sf-business-trip-pl/
+   50  ant
+   51  ant deploySkipTests
+   52  cd Bizn\ Trip\ model/
+   53  ls
+   54  cd biztrip/
+   55  ls
+   56  cd ../../sf-business-trip-pl/
+   57  ant deploySkipTests
+   58  ant deploySkipTests
+   59  ant deploySkipTests
+   60  ls
+   61  cd src/objects/
+   62  ls
+   63  cd../
+   64  cd ../
+   65  ls
+   66  ant deploySkipTests
+   67  cd ../
+   68  ls
+   69  sfdx
+   70  sfdx force:org:open -u DevHub
+   71  sfdx force:auth:web:login -h
+   72  sfdx force:auth:web:login -h
+   73  sfdx force:auth:web:login -h
+   74  sfdx force:auth:web:login -d -a DevHub
+   75  sfdx force:org:open -u DevHub
+   76  sfdx force:org:list
+   77  sfdx force:org:list -v
+   78  sfdx force:org:list --verbose
+   79  sfdx force:project:create -n geolocation
+   80  ls
+   81  pwd
+   82  cd geolocation/
+   83  sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
+   84  history
+   85  70
+   86  .sfdx force:org:open -u DevHub
+   87  sfdx force:org:open -u DevHub
+   88  sfdx force:org:list --verbose
+   89  sfdx force:org:list --verbose
+   90  history 
+   91  sfdx force:org:open
+   92  history 
+   93  sfdx force:
+   94  sfdx force:user:permset:assign -n Geolocation
+   95  sfdx force:source:pull
+   96  sfdx force:source:pull
+   97  git init
+   98  git remote add origin <github ssh url>
+   99  git remote add origin https://github.com/TCJ23/SFDX.git
+  100  git add -A
+  101  git commit --help
+  102  git commit -m "Add custom object and permset"
+  103  git push origin master
+  104  mkdir data
+  105  sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data
+  106  sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data
+  107  ls
+  108  ls data/
+  109  cat data/Account.json 
+  110  sfdx force:data:tree:import --sobjecttreefiles data/Account.json
+  111  history 
+  112  history 
+  113  history >> historia.txt
+    1  sfdx
+    2  sfdx force --help
+    3  sfdx force:doc:
+    4  sfdx force:doc
+    5  sfdx force:doc:commands:list
+    6  ssh-keygen -t rsa -C "tomasz.jurek@gft.com" -b 4096
+    7  ls
+    8  cd sf-business-trip-pl/
+    9  ls
+   10  git status
+   11  ant
+   12  cd workspace/
+   13  cd ANT/
+   14  ant
+   15  ant -p
+   16  ant -p
+   17  ant retrievesb4
+   18  ant retrievesb4
+   19  ant retrievesb4
+   20  ant -p
+   21  cd sf
+   22  cd sf-business-trip-pl/
+   23  cd ../.atom/
+   24  ant -h
+   25  cd ../Bizn\ Trip\ model/
+   26  ls
+   27  ant retrieveUnpackaged
+   28  ant retrieveUnpackaged
+   29  ant retrieveUnpackaged
+   30  ls
+   31  ant retrieveUnpackaged
+   32  ant retrieveUnpackaged
+   33  ant retrieveUnpackaged
+   34  cd ../sf-business-trip-pl/
+   35  ant deploySkipTests
+   36  ant deploySkipTests
+   37  ant deploySkipTests
+   38  ant deploySkipTests
+   39  ant deploySkipTests
+   40  ls
+   41  ls
+   42  ant deploySkipTests
+   43  cd src/
+   44  cd src/
+   45  ant deploySkipTests
+   46  cd ..
+   47  ls
+   48  ant deploySkipTests
+   49  cd sf-business-trip-pl/
+   50  ant
+   51  ant deploySkipTests
+   52  cd Bizn\ Trip\ model/
+   53  ls
+   54  cd biztrip/
+   55  ls
+   56  cd ../../sf-business-trip-pl/
+   57  ant deploySkipTests
+   58  ant deploySkipTests
+   59  ant deploySkipTests
+   60  ls
+   61  cd src/objects/
+   62  ls
+   63  cd../
+   64  cd ../
+   65  ls
+   66  ant deploySkipTests
+   67  cd ../
+   68  ls
+   69  sfdx
+   70  sfdx force:org:open -u DevHub
+   71  sfdx force:auth:web:login -h
+   72  sfdx force:auth:web:login -h
+   73  sfdx force:auth:web:login -h
+   74  sfdx force:auth:web:login -d -a DevHub
+   75  sfdx force:org:open -u DevHub
+   76  sfdx force:org:list
+   77  sfdx force:org:list -v
+   78  sfdx force:org:list --verbose
+   79  sfdx force:project:create -n geolocation
+   80  ls
+   81  pwd
+   82  cd geolocation/
+   83  sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
+   84  history
+   85  70
+   86  .sfdx force:org:open -u DevHub
+   87  sfdx force:org:open -u DevHub
+   88  sfdx force:org:list --verbose
+   89  sfdx force:org:list --verbose
+   90  history 
+   91  sfdx force:org:open
+   92  history 
+   93  sfdx force:
+   94  sfdx force:user:permset:assign -n Geolocation
+   95  sfdx force:source:pull
+   96  sfdx force:source:pull
+   97  git init
+   98  git remote add origin <github ssh url>
+   99  git remote add origin https://github.com/TCJ23/SFDX.git
+  100  git add -A
+  101  git commit --help
+  102  git commit -m "Add custom object and permset"
+  103  git push origin master
+  104  mkdir data
+  105  sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data
+  106  sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data
+  107  ls
+  108  ls data/
+  109  cat data/Account.json 
+  110  sfdx force:data:tree:import --sobjecttreefiles data/Account.json
+  111  history 
+  112  history 
+  113  history >> historia.txt
+  114  ls
+  115  sfdx force:apex:class:create -n AccountController -d force-app/main/default/classes
+  116  pwd
+  117  sfdx force:source:push
+  118  sfdx force:lightning:component:create -n AccountLocator -d force-app/main/default/aura
+  119  java --version
+  120  java --version
+  121  history >> historia.txt
